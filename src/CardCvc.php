@@ -7,7 +7,7 @@ use Illuminate\Contracts\Validation\Rule;
 
 class CardCvc implements Rule
 {
-    const MSG_CARD_CVC_INVALID = 'validation.credit_card.card_cvc_invalid';
+    const MSG_CARD_CVC_INVALID = 'Invalid CVC code';
 
     protected $message;
 
