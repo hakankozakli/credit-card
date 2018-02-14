@@ -26,7 +26,7 @@ This rule will validate that a given credit card **number**, **expiration date**
 ## Installation
 
 ```bash
-composer require laravel-validation-rules/credit-card
+composer require hakankozakli/credit-card
 ```
 
 ## Usage
