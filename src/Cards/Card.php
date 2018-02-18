@@ -132,6 +132,14 @@ abstract class Card
     }
 
     /**
+     * @return string
+     */
+    public function name()
+    {
+        return $this->name;
+    }
+
+    /**
      * @param $cvc
      *
      * @return bool
